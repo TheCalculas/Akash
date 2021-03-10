@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  /*background-image: url("https://unsplash.com/photos/OqtafYT5kTw/download?force=true");
+    background-repeat: round;*/
+}
+
+.top {
+  background-color: #ffffffb7;
+  color: #ff7171;
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+}
+
+.underline-span {
+  color: #006ba1;
+  text-decoration: line-through;
+}
+
+.mid-para {
+  color: white;
+  font-size: 5rem;
+}
+
+.plant {
+  float: left;
+}
+
+.mid {
+  margin: 0px;
+  border: white;
+  border-width: 1px;
+  background-color: #0e95a7;
+}
+
+.mid .plant {
+  padding: 2em;
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+}
+
+.hello {
+  background-color: black;
+}
+
+.coder {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.content {
+  text-align: mid;
+}
+
+.works-h1 {
+  text-decoration: underline;
+  font-size: 50px;
+  float: none;
+  text-align: center;
+}
+
+.content-works {
+  border-radius: 100px;
+  background-color: rgba(86, 36, 179, 0.616);
+  padding: 5rem 20rem;
+  margin: 0 50px 0 50px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.content-works img {
+  border-radius: 50%;
+  width: 20rem;
+}
+
+.content-works .p-head {
+  font-size: 4rem;
+  font-weight: 200;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
