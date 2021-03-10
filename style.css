@@ -7,7 +7,7 @@ body {
     margin: 0px;
     padding: 0px;
     /*background-image: url("https://unsplash.com/photos/OqtafYT5kTw/download?force=true");
-    background-repeat: round;*/
+      background-repeat: round;*/
 }
 
 .top {
@@ -37,12 +37,13 @@ body {
     border: white;
     border-width: 1px;
     background-color: #0e95a7;
-    .plant {
-        padding: 2em;
-        width: 25em;
-        height: 25em;
-        border-radius: 50%;
-    }
+}
+
+.mid .plant {
+    padding: 2em;
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
 }
 
 .hello {
@@ -69,16 +70,23 @@ body {
     background-color: rgba(86, 36, 179, 0.616);
     padding: 5rem 20rem;
     margin: 0 50px 0 50px;
-    img {
-        border-radius: 50%;
-        width: 20rem;
-    }
     color: white;
-    .p-head {
-        font-size: 4rem;
-        font-weight: 200;
-        align-items: center;
-    }
     font-size: 2rem;
     font-weight: 200;
 }
+
+.content-works img {
+    border-radius: 50%;
+    width: 20rem;
+}
+
+.content-works .p-head {
+    font-size: 4rem;
+    font-weight: 200;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/*# sourceMappingURL=style.css.map */
